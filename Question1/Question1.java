@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Stack;
 import java.util.Scanner;
 
-public class Main {
+public class Question1 {
     public static void main(String[] args) {
         System.out.println();
         System.out.println("Enter the input string:");
@@ -13,6 +13,7 @@ public class Main {
         String[] result = solve(input);
         System.out.println();
         System.out.println(Arrays.toString(result));
+        scanner.close();
     }
 
  public static String[] solve(String input) {
