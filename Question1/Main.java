@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("Enter the input string:");
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         String[] result = solve(input);
-        
+        System.out.println();
         System.out.println(Arrays.toString(result));
     }
 
